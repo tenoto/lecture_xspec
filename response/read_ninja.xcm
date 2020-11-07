@@ -1,0 +1,12 @@
+statistic chi
+data 1:1 response/ninja_empty.pi
+response  1:1 response/ninja_2gmc_whole_191224.rmf
+backgrnd 1 response/ninja_2gmc_whole_nxbcxb_200928.pi
+
+method leven 10 0.01
+abund angr
+xsect vern
+cosmo 70 0 0.73
+xset delta 0.01
+systematic 0
+bayes off

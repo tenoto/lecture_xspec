@@ -1,0 +1,121 @@
+LWIDTH   5.
+TIME OFF
+COL  OFF 1..101
+DG     1       1      1    101    101
+LIne ON    1
+LW   5.0 ON   1
+LIne ON    2
+LW   5.0 ON   2
+LW   5.0 ON   3
+LW   5.0 ON   4
+LW   5.0 ON   5
+LW   5.0 ON   6
+LW   5.0 ON   7
+LW   5.0 ON   8
+LW   5.0 ON   9
+LW   5.0 ON  10
+LW   5.0 ON  11
+LW   5.0 ON  12
+LW   5.0 ON  13
+LW   5.0 ON  14
+LW   5.0 ON  15
+LW   5.0 ON  16
+LW   5.0 ON  17
+LW   5.0 ON  18
+LW   5.0 ON  19
+LW   5.0 ON  20
+LW   5.0 ON  21
+LW   5.0 ON  22
+LW   5.0 ON  23
+LW   5.0 ON  24
+LW   5.0 ON  25
+LW   5.0 ON  26
+LW   5.0 ON  27
+LW   5.0 ON  28
+LW   5.0 ON  29
+LW   5.0 ON  30
+LW   5.0 ON  31
+LW   5.0 ON  32
+LW   5.0 ON  33
+LW   5.0 ON  34
+LW   5.0 ON  35
+LW   5.0 ON  36
+LW   5.0 ON  37
+LW   5.0 ON  38
+LW   5.0 ON  39
+LW   5.0 ON  40
+LW   5.0 ON  41
+LW   5.0 ON  42
+LW   5.0 ON  43
+LW   5.0 ON  44
+LW   5.0 ON  45
+LW   5.0 ON  46
+LW   5.0 ON  47
+LW   5.0 ON  48
+LW   5.0 ON  49
+LW   5.0 ON  50
+LW   5.0 ON  51
+LW   5.0 ON  52
+LW   5.0 ON  53
+LW   5.0 ON  54
+LW   5.0 ON  55
+LW   5.0 ON  56
+LW   5.0 ON  57
+LW   5.0 ON  58
+LW   5.0 ON  59
+LW   5.0 ON  60
+LW   5.0 ON  61
+LW   5.0 ON  62
+LW   5.0 ON  63
+LW   5.0 ON  64
+LW   5.0 ON  65
+LW   5.0 ON  66
+LW   5.0 ON  67
+LW   5.0 ON  68
+LW   5.0 ON  69
+LW   5.0 ON  70
+LW   5.0 ON  71
+LW   5.0 ON  72
+LW   5.0 ON  73
+LW   5.0 ON  74
+LW   5.0 ON  75
+LW   5.0 ON  76
+LW   5.0 ON  77
+LW   5.0 ON  78
+LW   5.0 ON  79
+LW   5.0 ON  80
+LW   5.0 ON  81
+LW   5.0 ON  82
+LW   5.0 ON  83
+LW   5.0 ON  84
+LW   5.0 ON  85
+LW   5.0 ON  86
+LW   5.0 ON  87
+LW   5.0 ON  88
+LW   5.0 ON  89
+LW   5.0 ON  90
+LW   5.0 ON  91
+LW   5.0 ON  92
+LW   5.0 ON  93
+LW   5.0 ON  94
+LW   5.0 ON  95
+LW   5.0 ON  96
+LW   5.0 ON  97
+LW   5.0 ON  98
+LW   5.0 ON  99
+LW   5.0 ON 100
+CONT  1 LEVEL 53.6575813 54.9575806 55.3575783 57.2675781 61.8675804
+CONT  1 COLOR       2       3       4       5       6
+CONT  1 LSTYL       1       1       1       1       1
+CONT  1  LWID       5       5       5       5       5
+XAX  LIN  2.07999992 1.3999939E-3
+YAX  LIN 9.80000019 2.40001678E-2
+LOC  0 0 1 1
+LAB  1 COL 5
+LAB  1 POS 2.14982009 10.9686003 "+"
+LAB  F  cross = 52.658; Levels =  53.658 54.958 55.358 57.268 61.868
+LAB  T  Confidence contours: Chi-Squared
+LAB  X  Parameter: PhoIndex
+LAB  Y  Parameter: norm
+R    X1 2.07999992 2.22000003
+R    Y1 9.80000019 12.1999998

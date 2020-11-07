@@ -1,0 +1,17 @@
+statistic chi
+data 1:1 sample/sim_ninja_crab_100s_bin100.fak
+response  1:1 response/ninja_2gmc_whole_191224.rmf
+backgrnd 1 sample/sim_ninja_crab_100s_bkg.fak
+ignore 1:1,68-412
+
+method leven 10 0.01
+abund angr
+xsect vern
+cosmo 70 0 0.73
+xset delta 0.01
+systematic 0
+model  phabs*powerlaw
+       0.614496      0.001          0          0     100000      1e+06
+        2.14982       0.01         -3         -2          9         10
+        10.9687       0.01          0          0      1e+20      1e+24
+bayes off
