@@ -1,0 +1,39 @@
+SKIP SING
+CSIZ  1.10
+LAB  POS Y  2.40
+LAB  ROT
+LWIDTH   5.
+TIME OFF
+COL 1 ON 2
+COL 1 ON 3
+LW   5.0 ON   1
+MArk    1 ON   1
+LIne Step    2
+LW   5.0 ON   2
+LW   5.0 ON   3
+MArk    1 ON   3
+LW   5.0 ON   4
+WIN     1
+YPLOT  1 2 4
+LOC  0 0 1 1
+Vie  0.100000001 0.400000006 0.899999976 0.899999976
+LAB  NX OFF
+LAB  F  kT=0.3 keV, norm=14400, NH=0.5e+22 cm-2
+LAB  T  neutron star at 3 kpc
+LAB  Y  normalized counts s\u-1\d keV\u-1\d
+R    X1 0.800000012 8
+R    Y   9.99999975E-5 10
+WIN     2
+YPLOT  3
+LOC  0 0 1 1
+Vie  0.100000001 0.100000001 0.899999976 0.400000006
+LAB  2 COL 3 LIN 0 100 JUS Lef
+LAB  2 POS 0.800000012 0 " "
+LAB  F
+LAB  X  Energy (keV)
+LAB  Y  (data-model)/error
+R    X2 0.800000012 8
+R    Y2 -5 5
+WIN  ALL
+LOG  X ON 1 2
+LOG  Y ON 1
